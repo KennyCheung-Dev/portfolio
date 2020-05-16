@@ -1,0 +1,339 @@
+/*Content*/
+#Content {
+  position: relative;
+  top: 370px;
+  left: 25.6%;
+  width: 63%;
+  height: 30px;
+  z-index: 1;
+  padding: 20px;
+  border: none 2px solid;
+  /* background-color:#FFFFFF; */
+}
+
+body {
+  margin: 0em;
+  background-color: #FFFFFF;
+  /* background-image: url("../img/chair_2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center top;
+  /* background-position-x: 1000%; */
+  /* height: 100%; */
+  /* width: 100%; */
+}
+
+.box {
+  position: relative;
+  background-color: rgba(158, 146, 143, 0.15);
+  /* color: rgb(230, 230, 230); */
+  color: black;
+  display: inline-block;
+  /* padding: 5em 4em; */
+  width: 100%;
+  height: 30em;
+  /* margin-top: 10em; */
+  align-items: center;
+  line-height: 1.7em;
+  margin-top: 10em;
+  /* left: 15%; */
+  /* border-radius: 10px; */
+  /* padding:2em; */
+}
+
+.bio {
+  position: relative;
+  display: block;
+  margin-top: 19em;
+  margin-left: 2em;
+}
+
+.box h2 {
+  /* text-align: center; */
+  margin-bottom: 1em;
+}
+
+.box p {
+  max-width: 50%;
+}
+
+.projectTitles {
+  position: relative;
+  display: inline-block;
+  /* background-color: grey; */
+  /* width: 10%; */
+  margin-left: 10%;
+  margin-top: 6em;
+  /* padding: 2em 5em; */
+}
+
+.ImageContainer {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: space-between;
+  margin-top: 5em;
+  /* margin-left: 20%; */
+}
+
+.hiddenBox {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  /* transition: FadeOut 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  opacity: 0.0; */
+  transition: all ease .3s;
+  opacity: 0;
+}
+
+.hiddenBox:hover {
+  /* animation: Fade 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; */
+  /* animation-fill-mode: forwards; */
+  transition: all ease .3s;
+  opacity: 1;
+}
+
+@-webkit-keyframes Fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes Fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes Fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes Fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes FadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes FadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes FadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes FadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.projectImages1 {
+  width: 24%;
+  position: relative;
+  height: 22vw;
+  background-image: url("../img/AOBLogo.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  /* filter: grayscale(70%); */
+}
+
+.projectImages1 h2 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages1 h3 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages2 {
+  width: 24%;
+  position: relative;
+  height: 22vw;
+  background-image: url("../img/KAKTUSlogo.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* filter: grayscale(50%); */
+}
+
+.projectImages2 h2 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages2 h3 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages3 {
+  width: 24%;
+  position: relative;
+  height: 22vw;
+  background-image: url("../img/kaboom/thumpnails1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* filter: grayscale(100%); */
+}
+
+.projectImages3 h2 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages3 h3 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages4 {
+  width: 24%;
+  position: relative;
+  height: 22vw;
+  background-image: url("../img/VRVRGolf/VRVRGolf.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* filter: grayscale(100%); */
+}
+
+.projectImages4 h2 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectImages4 h3 {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.projectAnalyse {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5em;
+}
+
+.flexImage {
+  width: 100%;
+  height: auto;
+}
+
+.item2 a {
+  border-bottom: 2px solid #A8A79F;
+  padding-bottom: 6px;
+}
+
+/*The Prperty tax title*/
+#sidenavtext h3 {
+  margin: 0 auto;
+  margin-bottom: 1.17rem;
+  margin-top: 1rem;
+}
+
+#footer {
+  top: 10em;
+}
+
+@media screen and (max-width: 700px) {
+
+  /* .projectImages {
+    max-width: 49%;
+  } */
+  .ImageContainer {
+    flex-flow: column;
+  }
+
+  .projectImages1 {
+    width: 100%;
+    height: 70vw;
+    margin-bottom: 1em;
+  }
+
+  .projectImages2 {
+    width: 100%;
+    height: 70vw;
+    margin-bottom: 1em;
+  }
+
+  .projectImages3 {
+    width: 100%;
+    height: 70vw;
+    margin-bottom: 1em;
+  }
+
+  .projectImages4 {
+    width: 100%;
+    height: 70vw;
+  }
+}
