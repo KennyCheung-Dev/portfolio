@@ -270,28 +270,12 @@ body {
   } */
   .ImageContainer {
     flex-flow: column;
+    margin-top: 1em;
   }
 
-  .projectImages1 {
+  .ImageContainer > div {
     width: 100%;
-    height: 70vw;
+    height: 30vw;
     margin-bottom: 1em;
-  }
-
-  .projectImages2 {
-    width: 100%;
-    height: 70vw;
-    margin-bottom: 1em;
-  }
-
-  .projectImages3 {
-    width: 100%;
-    height: 70vw;
-    margin-bottom: 1em;
-  }
-
-  .projectImages4 {
-    width: 100%;
-    height: 70vw;
   }
 }
