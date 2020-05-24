@@ -75,9 +75,33 @@ body {
   flex-grow: 1;
   width: 80%;
   margin-left: 10%;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 5em;
   /* margin-left: 20%; */
+}
+
+.ImageContainer > div {
+  margin-bottom: 1em;
+  width: 24%;
+  position: relative;
+  height: 17vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  margin-right: 1%
+  /* filter: grayscale(70%); */
+}
+
+.ImageContainer h2 {
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.ImageContainer h3 {
+    color: white;
+    text-align: center;
+    align-items: center;
 }
 
 .hiddenBox {
@@ -187,96 +211,30 @@ body {
 }
 
 .projectImages1 {
-  width: 24%;
-  position: relative;
-  height: 22vw;
   background-image: url("../img/AOBLogo.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  /* filter: grayscale(70%); */
-}
-
-.projectImages1 h2 {
-  color: white;
-  text-align: center;
-  align-items: center;
-}
-
-.projectImages1 h3 {
-  color: white;
-  text-align: center;
-  align-items: center;
 }
 
 .projectImages2 {
-  width: 24%;
-  position: relative;
-  height: 22vw;
   background-image: url("../img/KAKTUSlogo.gif");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* filter: grayscale(50%); */
-}
-
-.projectImages2 h2 {
-  color: white;
-  text-align: center;
-  align-items: center;
-}
-
-.projectImages2 h3 {
-  color: white;
-  text-align: center;
-  align-items: center;
 }
 
 .projectImages3 {
-  width: 24%;
-  position: relative;
-  height: 22vw;
   background-image: url("../img/kaboom/thumpnails1.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  /* filter: grayscale(100%); */
-}
-
-.projectImages3 h2 {
-  color: white;
-  text-align: center;
-  align-items: center;
-}
-
-.projectImages3 h3 {
-  color: white;
-  text-align: center;
-  align-items: center;
 }
 
 .projectImages4 {
-  width: 24%;
-  position: relative;
-  height: 22vw;
   background-image: url("../img/VRVRGolf/VRVRGolf.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  /* filter: grayscale(100%); */
 }
 
-.projectImages4 h2 {
-  color: white;
-  text-align: center;
-  align-items: center;
+.projectImages5 {
+  background-image: url("../img/AOBLogo.gif");
 }
 
-.projectImages4 h3 {
-  color: white;
-  text-align: center;
-  align-items: center;
+.projectImages6 {
+  background-image: url("../img/AOBLogo.gif");
 }
+
+
 
 .projectAnalyse {
   width: 60%;
