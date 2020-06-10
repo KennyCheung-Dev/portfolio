@@ -82,7 +82,8 @@ body {
 
 .ImageContainer > div {
   margin-bottom: 1em;
-  width: 24%;
+  /* width: 24%; */
+  width: 32%;
   position: relative;
   height: 17vw;
   background-repeat: no-repeat;
