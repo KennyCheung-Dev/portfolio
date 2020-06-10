@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Project-ThisIsFine</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/project-thisisfine.css">
+  <link rel="stylesheet" href="css/grid.css">
+</head>
+
+<body>
+
+  <nav id="navigation" class="topBar">
+
+    <div class="kclogo">
+      <a href="Homepage.html">
+        <img alt="XD" class="logoImage" src="img/KC_logo.png" width="90" height="90">
+      </a>
+    </div>
+    <div class="Name">
+      <a href="Homepage.html">
+        <h1>KENNY CHEUNG</h1>
+      </a>
+    </div>
+
+    <div class="showButton"><a onclick="myFunction()"><img alt="XD" class="DropArrowImage" src="img/menu3.png"></a></div>
+    <div id="container">
+      <div class="container">
+
+        <div class="item1"><strong><a href="Homepage.html">HOME</a></strong></div>
+
+        <div class="item2"><strong><a href="Project.html">WORK</a></strong></div>
+
+        <div class="item3"><strong><a href="Gallery.html">GALLERY</a></strong></div>
+
+        <div class="item4"><strong><a href="Contact.html">CONTACT</a></strong></div>
+
+
+      </div>
+    </div>
+
+  </nav>
+
+
+  <!-- <div class="content">
+
+</div> -->
+
+  <!-- BIO BOX -->
+  <!-- <div class="box">
+
+    <div class="bio">
+      <h2>About Me</h2>
+      <p>Welcome! My name is Kenny Cheung. I am a student in the SFU Interactive Art & Technology program! I am passionate about 3D modeling and game design. Please feel free to browse around my porfolio</p>
+    </div>
+  </div> -->
+  <div class="contextImage">
+
+  </div>
+
+
+  <div class="projectTitles">
+    <h1 class="projectTitleBig">This Is Fine</h1>
+    <h3 class="projectTitleSmol">Unity Game</h3>
+  </div>
+
+  <hr class="Line">
+
+  <div class="projectContext">
+    <div class="contextBlock">
+      <p class="contetTitles">Context</p>
+      <p>Game Jam entry for LudamDare 46 Game Jam</p>
+      <p></p>
+    </div>
+    <div class="contextBlock">
+      <p class="contetTitles">Role</p>
+      <p>Unity C# Programmer</p>
+    </div>
+    <div class="contextBlock">
+      <p class="contetTitles">Jam</p>
+      <p>Chris Wong<br />Tamiko Tadeo<br />Kenny Cheung<br />Danielle Ragas<br />Nancy Chen</p>
+    </div>
+  </div>
+
+  <iframe class="blobbyVideo" width="16" height="9" src="https://www.youtube.com/embed/4tzqKClkLZU " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <div class="projectAnalyse">
+    <div class="para1">
+      <div class="AnalyseTextBlock1">
+        <h3>Description</h3>
+        <p>This is fine is a Unity game built by a team of artists and programmers for the Ludamdare 46 Game Jam. The jam lasted for 72 hours and 4959 games were submitted. The theme was “Keep It Alive”. </p>
+      </div>
+      <div class="AnalyseImageBlock1">
+        <img alt="XD" class="floatLeft" src="img/ThisIsFine/gameplay2.png" width="800" height="450">
+      </div>
+    </div>
+    <div class="para2">
+      <div class="AnalyseImageBlock2">
+        <figure class="imgFig">
+          <img alt="XD" class="figImg" src="img/ThisIsFine/OriginalMeme.png" width="800" height="450">
+          <figcaption>Portion of webcomic "On Fire" by KC Green</figcaption>
+        </figure>
+
+      </div>
+      <div class="AnalyseTextBlock2">
+        <h3>Ideation</h3>
+        <p>
+          Our game comes from a meme "This Is Fine" by KC Green’s in his 2013 webcomic "On Fire". We struggled to design game mechanics that best fit the theme of the meme. At the end, countless debate on the mechanics resulted in a set of
+          mechanics that all of us are satisfied with.<br /><br />
+          - Each level, there are two goals, to spread the fire and burn all the furnitures, and to lure the dog to his coffee.
+          <br /><br />
+          - Players has the press the “Wait” button to advance time, which allows the fire to spread to nearby source, and allow the dog to move.
+          <br /><br />
+          - Players will have to place variety a of furnitures in different shapes onto the grid to spread and maintain the fire, or eventually it goes out on its own.
+          <br /><br />
+          - The dog can be lured by a stick placed in a horizontal or vertical place within 10 steps.
+        </p>
+      </div>
+    </div>
+    <div class="para3">
+      <div class="AnalyseImageBlock3">
+        <img alt="XD" class="floatLeft" src="img/ThisIsFine/Grid.gif" width="800" height="450"><br />
+        <img alt="XD" class="floatLeft" src="img/ThisIsFine/Grid2.gif" width="800" height="450">
+      </div>
+      <div class="AnalyseTextBlock3">
+        <h3>Building the comfy Dog Home in Grid</h3>
+        <p>
+          In this project, my main contribution is the design of the code structure and to implement the grid system for the game. Some of the requirements were:
+          <br /><br />
+          - Players will be abl to drag elements onto a grid
+          <br /><br />
+          - Elements mostly comes in different shapes and occupy multiple nodes. For example, there was a L-shaped sofa that takes up 4 nodes
+          <br /><br />
+          - When players pick up an element, the element will follow the mouse with the most top-left node as the anchor
+          <br /><br />
+
+          Originally, the team has decided an alternative approach to implement the grid.
+          <br />
+          We were going to build it with a 2D Array of GameObjects to contain the current elements on the grid. Initially, we think this way makes the most sense, and was our first instinct when we think of a grid.
+          <br /><br />
+
+          However, considering one of the amazing L-shaped bed another programmer has suggested in sketch, I quickly realized the 2D Array of GameObject will not be the most efficient way to implement it.
+          <br /><br />
+
+          The problem is that most of our object are going to take up multiple nodes on the grid. To explain this, let’s use the beloved L-Shape Bed as an example:
+        </p>
+        <img alt="XD" class="inParaImg" src="img/ThisIsFine/LBed.png">
+        <p>
+          The bed is occupying nodes [0,0], [1,0] and [0,1]. In this case, with our old approach, all 3 nodes on the 2D Array would have a piece of the bed game object, which is not efficient and would not work with our mechanics.
+          <br /><br />
+          Another similar approach is to allow one of the node contains the entire object, and the object itself keeps references to the 3 nodes it occupy. Although I did not suggest this approach at the end, some of the aspect were taken into our
+          final structure. The problem with this approach is that there is no need to have a 2D Array structure anymore because the object itself will still have to keep references on its occupying nodes.
+          <br /><br />
+          At the end, I suggested to simply storing the game objects in a 1-dimentional array, and have each object keep track of it’s root node (most top-left node) and subsequent node by displacement from the root node.
+          <br /><br />
+          One of the advantage for this approach is we no longer need to loop through a 2D array to check the objects, which possibly resulted in performance increases.
+          <br /><br />
+          Another advantage comes from the way subsequent nodes were kept track of by the displacement from the root node. The displacement allows us to quickly process and understand where the child nodes are even as the object is moving around. For
+          example, the L-Shaped Bed has the root node at [0,0], and the displacement of its subsequent nodes are [1,0] and [0,1]. When it’s root position is moved [5,5], with the displacement instead of hard coded location, we can quickly obtain the
+          child node positions at [6,5] and [5,6] by just adding the displacement to the current root position.
+          <br /><br />
+          To root out the potential problem and explain better to the team, I quickly built a prototype to demonstrate. I have also considered the other applications of the grid such as prevention of user dragging an element to a node occupied.
+          <br /><br />
+          My approach was accepted and adopted into the final game.
+        </p>
+        <br>
+      </div>
+    </div>
+    <div class="para2">
+      <div class="AnalyseImageBlock2">
+        <img alt="XD" class="floatLeft" src="img/ThisIsFine/GridManager.png" width="800" height="450">
+      </div>
+      <div class="AnalyseTextBlock2">
+        <h3>Working with the other Dogs</h3>
+        <p>
+          I have gathered experience and had fun on working with other programmers. The grid is largely depended on by the other features. For example, when the objects are moving, they have to know if the next node is occupied by any objects; when the
+          fire is spreading, it needs to know the currently occupying object in the near nodes. When the need of a new function is suggested, new methods were written to satisfy the needs. Gradually, the grid system becomes something closer to an
+          API, an isolated module that can be tested individually.
+          <br /><br />
+        </p>
+        <h3>Role in the dogs</h3>
+        <p>
+        Other than the grid, I am also responsible to import most of the sprite sheets and turn them into animations and animation controllers. Additionally, I have worked on the inventory system, helping with the drag and drop raycast collision
+        problem.
+        </p>
+
+        <img alt="XD" class="inParaImg2" src="img/ThisIsFine/animation.gif" width="800" height="450">
+      </div>
+    </div>
+    <div class="para3">
+      <div class="AnalyseImageBlock3">
+        <img alt="XD" class="floatLeft" src="img/ThisIsFine/myLevel.png" width="800" height="450">
+      </div>
+      <div class="AnalyseTextBlock3">
+        <h3>Dog stuck in a small house</h3>
+        <p>
+          When we are in the phase of making levels, I tasked myself to build the most clever level I can. I started by thinking how the difficult levels are like in many puzzles games I have played. Some of them uses tight constraints to limit
+          player’s choice and requires dynamics between game functions. I started by placing objects in a compact grid of 3 X 3, but soon realize the lowest size of grid that my level in mind needs is 5 X 5. At the end, I successfully built a level
+          that I am proud of. Please play my level #8.
+          <br /><br />
+        </p>
+        <br />
+        <h3>Where did the Dog end up?</h3>
+        <p>
+          We received 116th overall, not as good as our previous submission to LD45 Finished Racoon Bikini Game, but the process is extremely fun which made the result not as important. We will definitely join the next jam as well.
+          <br /><br />
+          Please come and try our game: <a class="ThisIsFineLink" href="https://gravitydefier.itch.io/this-is-fine" target="_blank">This Is Fine<a />
+        </p>
+        <br>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!--Content-->
+
+  <!--End Of Content-->
+
+  <!--footer bar-->
+
+
+
+  <div id="footer">
+    <p>
+      <a href="https://github.com/KennyCheung-Dev" target="_blank">GitRepository</a>
+    </p>
+  </div>
+
+  <script src="jquery-3.3.1.js"></script>
+
+  <script src="dropbtn.js"></script>
+  <script src="showButton.js"></script>
+  <script src="shrink.js"></script>
+
+
+</body>
+
+</html>
