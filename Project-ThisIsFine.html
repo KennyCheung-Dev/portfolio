@@ -89,17 +89,23 @@
   <div class="projectAnalyse">
     <div class="para1">
       <div class="AnalyseTextBlock1">
-        <h3>Description</h3>
+        <h3>Context</h3>
         <p>This is fine is a Unity game built by a team of artists and programmers for the Ludamdare 46 Game Jam. The jam lasted for 72 hours and 4959 games were submitted. The theme was “Keep It Alive”. </p>
+        <br />
+        <p>Please come and try our game: <a class="ThisIsFineLink" href="https://gravitydefier.itch.io/this-is-fine" target="_blank">This Is Fine</a></p>
       </div>
       <div class="AnalyseImageBlock1">
-        <img alt="XD" class="floatLeft" src="img/ThisIsFine/gameplay2.png" width="800" height="450">
+        <a href="img/ThisIsFine/gameplay2.png" target="_blank">
+          <img alt="XD" src="img/ThisIsFine/gameplay2.png" class="floatLeft generalImages" width="800" height="450">
+        </a>
       </div>
     </div>
     <div class="para2">
       <div class="AnalyseImageBlock2">
         <figure class="imgFig">
-          <img alt="XD" class="figImg" src="img/ThisIsFine/OriginalMeme.png" width="800" height="450">
+          <a href="img/ThisIsFine/OriginalMeme.png" target="_blank">
+            <img alt="XD" src="img/ThisIsFine/OriginalMeme.png" class="figImg generalImages" width="800" height="450">
+          </a>
           <figcaption>Portion of webcomic "On Fire" by KC Green</figcaption>
         </figure>
 
@@ -121,8 +127,13 @@
     </div>
     <div class="para3">
       <div class="AnalyseImageBlock3">
-        <img alt="XD" class="floatLeft" src="img/ThisIsFine/Grid.gif" width="800" height="450"><br />
-        <img alt="XD" class="floatLeft" src="img/ThisIsFine/Grid2.gif" width="800" height="450">
+        <a href="img/ThisIsFine/Grid.gif" target="_blank">
+          <img alt="XD" src="img/ThisIsFine/Grid.gif" class="floatLeft generalImages" width="800" height="450">
+        </a>
+        <br />
+        <a href="img/ThisIsFine/Grid2.gif" target="_blank">
+          <img alt="XD" src="img/ThisIsFine/Grid2.gif" class="floatLeft generalImages" width="800" height="450">
+        </a>
       </div>
       <div class="AnalyseTextBlock3">
         <h3>Building the comfy Dog Home in Grid</h3>
@@ -146,7 +157,9 @@
 
           The problem is that most of our object are going to take up multiple nodes on the grid. To explain this, let’s use the beloved L-Shape Bed as an example:
         </p>
-        <img alt="XD" class="inParaImg" src="img/ThisIsFine/LBed.png">
+        <a href="img/ThisIsFine/LBed.png" target="_blank">
+          <img alt="XD" src="img/ThisIsFine/LBed.png" class="inParaImg generalImages" width="800" height="450">
+        </a>
         <p>
           The bed is occupying nodes [0,0], [1,0] and [0,1]. In this case, with our old approach, all 3 nodes on the 2D Array would have a piece of the bed game object, which is not efficient and would not work with our mechanics.
           <br /><br />
@@ -170,28 +183,34 @@
     </div>
     <div class="para2">
       <div class="AnalyseImageBlock2">
-        <img alt="XD" class="floatLeft" src="img/ThisIsFine/GridManager.png" width="800" height="450">
+        <a href="img/ThisIsFine/GridManager.png" target="_blank">
+          <img alt="XD" src="img/ThisIsFine/GridManager.png" class="floatLeft generalImages" width="800" height="450">
+        </a>
       </div>
       <div class="AnalyseTextBlock2">
         <h3>Working with the other Dogs</h3>
         <p>
-          I have gathered experience and had fun on working with other programmers. The grid is largely depended on by the other features. For example, when the objects are moving, they have to know if the next node is occupied by any objects; when the
+          I have gathered experience and had fun on working with other programmers. The grid is largely depended on by the other features. For example, when the objects are moving, they have to know if the next node is occupied by any objects; when
+          the
           fire is spreading, it needs to know the currently occupying object in the near nodes. When the need of a new function is suggested, new methods were written to satisfy the needs. Gradually, the grid system becomes something closer to an
           API, an isolated module that can be tested individually.
           <br /><br />
         </p>
         <h3>Role in the dogs</h3>
         <p>
-        Other than the grid, I am also responsible to import most of the sprite sheets and turn them into animations and animation controllers. Additionally, I have worked on the inventory system, helping with the drag and drop raycast collision
-        problem.
+          Other than the grid, I am also responsible to import most of the sprite sheets and turn them into animations and animation controllers. Additionally, I have worked on the inventory system, helping with the drag and drop raycast collision
+          problem.
         </p>
-
-        <img alt="XD" class="inParaImg2" src="img/ThisIsFine/animation.gif" width="800" height="450">
+        <a href="img/ThisIsFine/animation.gif" target="_blank">
+          <img alt="XD" src="img/ThisIsFine/animation.gif" class="inParaImg2 generalImages" width="800" height="450">
+        </a>
       </div>
     </div>
     <div class="para3">
       <div class="AnalyseImageBlock3">
-        <img alt="XD" class="floatLeft" src="img/ThisIsFine/myLevel.png" width="800" height="450">
+        <a href="img/ThisIsFine/myLevel.png" target="_blank">
+          <img alt="XD" src="img/ThisIsFine/myLevel.png" class="floatLeft generalImages" width="800" height="450">
+        </a>
       </div>
       <div class="AnalyseTextBlock3">
         <h3>Dog stuck in a small house</h3>

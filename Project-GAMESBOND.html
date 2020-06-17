@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Project-GAMESBOND</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/project-GAMESBOND.css">
+  <link rel="stylesheet" href="css/grid.css">
+</head>
+
+
+
+<body>
+
+  <nav id="navigation" class="topBar">
+
+    <div class="kclogo">
+      <a href="Homepage.html">
+        <img alt="XD" class="logoImage" src="img/KC_logo.png" width="90" height="90">
+      </a>
+    </div>
+    <div class="Name">
+      <a href="Homepage.html">
+        <h1>KENNY CHEUNG</h1>
+      </a>
+    </div>
+
+    <div class="showButton"><a onclick="myFunction()"><img alt="XD" class="DropArrowImage" src="img/menu3.png"></a></div>
+    <div id="container">
+      <div class="container">
+
+        <div class="item1"><strong><a href="Homepage.html">HOME</a></strong></div>
+
+        <div class="item2"><strong><a href="Project.html">WORK</a></strong></div>
+
+        <div class="item3"><strong><a href="Gallery.html">GALLERY</a></strong></div>
+
+        <div class="item4"><strong><a href="Contact.html">CONTACT</a></strong></div>
+
+
+      </div>
+    </div>
+
+  </nav>
+
+  <h1 class="projectTitles">GAMESBOND</h1>
+  <h3 class="projectTitles">Game Review Website</h3>
+  <br />
+
+  <a href="img/GAMESBOND/banner.png">
+    <img alt="XD" src="img/GAMESBOND/banner.png" class="banner">
+  </a>
+
+  <!--Content-->
+
+
+  <!-- <h2 class="Left15 Top1">Motivation</h2> -->
+
+
+
+  <div class="paraContainer">
+    <div>
+      <h3>Description</h3>
+      <p class="para">
+        GAMESBOND is a game review website emphasis on the connections between reviewers. Not only are users able to write and view reviews on the game, they can also track a specific game or reviewer they like, and receive notifications on their
+        newest reviews. We have also implemented algorithms to give game recommendations based on the browsing history.
+        <br/ ><br/ >
+        <strong>Team:</strong>
+        <br/ >
+        Kenny Cheung
+        <br/ >
+        Luke Yang
+      </p>
+    </div>
+    <div>
+      <a href="img/GAMESBOND/GamesBond1_shaded.png" target="_blank">
+        <img alt="XD" src="img/GAMESBOND/GamesBond1_shaded.png" class="width100 generalImages">
+      </a>
+    </div>
+  </div>
+
+  <div class="paraContainer">
+    <div>
+      <a href="img/GAMESBOND/phpymyadmin.png" target="_blank">
+        <img alt="XD" src="img/GAMESBOND/phpymyadmin.png" class="width90 generalImages">
+      </a>
+    </div>
+    <div>
+      <h3>Role</h3>
+      <p class="para">
+        We were a small team of 2. My role was to implement the website’s front, back-end, and design the user experience of the site. My teammate was responsible to gather and perform data wrangling with the game database.
+      </p>
+      <br />
+      <h3>Tools</h3>
+      <p class="para">
+        The website is written in PHP, while the database management are done in SQL. To develop without hosting the site on a server, we used XAMPP package.
+      </p>
+    </div>
+  </div>
+
+  <div class="paraContainer">
+    <div>
+      <h3>Challenge</h3>
+      <p class="para">
+        Our website features a search engine for games. Based on the keyword entered combined and the genre checkbox selections, we will have to filter and return a collection of games with SQL queries. Combine and forming the selection data and
+        using Ajax to update the search engine in real-time was quite challenging to correctly implement it.
+      </p>
+    </div>
+    <div>
+      <a href="img/GAMESBOND/searchEngine3.gif" target="_blank">
+        <img alt="XD" src="img/GAMESBOND/searchEngine3.gif" class="width100 generalImages">
+      </a>
+    </div>
+  </div>
+
+  <div class="paraContainer">
+    <div>
+      <a href="img/GAMESBOND/GamesBond5.gif" target="_blank">
+        <img alt="XD" src="img/GAMESBOND/GamesBond5.gif" class="width95 generalImages">
+      </a>
+    </div>
+    <div>
+      <h3>Reflection</h3>
+      <p class="para">
+        With only 2 months, we were not able to implement all the features that we planned for, and or to improve the user experience of the site further. For example, we planned to implement an on-boarding experience where users can pick games they
+        are interested in in a bubble view, so that we can retrieve some initial data about the user, in order to give recommendation without any browsing history.
+        <br /><br />
+        I have gained experience in php and sql, but most importantly, the experience to work with a new language, and immediately apply it onto a project. I have thoroughly enjoyed the process, tackling the challenge of ajax and complicated sql
+        query building was thrilling.
+      </p>
+    </div>
+  </div>
+
+  <!--End Of Content-->
+
+  <!--footer bar-->
+
+
+
+  <div id="footer">
+    <p>
+      <!-- <a href="Styleguide.HTML">StyleGuide </a> -->
+      <!-- <a href="citation.html">Citation </a> -->
+      <a href="https://github.com/KennyCheung-Dev" target="_blank">GitRepository</a>
+    </p>
+  </div>
+
+  <script src="jquery-3.3.1.js"></script>
+
+  <script src="dropbtn.js"></script>
+  <script src="showButton.js"></script>
+  <script src="shrink.js"></script>
+
+
+</body>
+
+</html>
+
+<!-- References: -->
+<!-- Image Grid techniques from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp -->

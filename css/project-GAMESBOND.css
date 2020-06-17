@@ -1,0 +1,157 @@
+/*Content*/
+
+#Content {
+  position: relative;
+  top: 370px;
+  left: 25.6%;
+  width: 63%;
+  height: 30px;
+  z-index: 1;
+  padding: 20px;
+  border: none 2px solid;
+  /* background-color:#FFFFFF; */
+}
+
+body {
+  margin: 0em;
+  background-color: #FFFFFF;
+  /* background-image: url("../img/chair_2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center top;
+  /* background-position-x: 1000%; */
+  /* height: 100%; */
+  /* width: 100%; */
+}
+
+h3 {
+  margin-top: 0em;
+}
+
+.projectTitles {
+  position: relative;
+  display: inline-block;
+  /* background-color: grey; */
+  /* width: 10%; */
+  margin-left: 5%;
+  margin-top: 7em;
+  /* padding: 2em 5em; */
+}
+
+.banner {
+  margin-left: auto;
+  margin-right:auto;
+  display:block;
+  margin-left: 5%;
+  width: 90%;
+  margin-bottom: 5em;
+}
+
+.paraContainer {
+  margin-bottom: 6em;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  width: 70%;
+}
+
+.paraContainer > div {
+  width: 50%;
+}
+
+.para {
+  width: 80%;
+}
+
+.verticalSplitLeft {
+  float: left;
+  width: 55%;
+  height: auto;
+  margin-right: 1%;
+}
+
+.verticalSplitRight {
+  float: left;
+  width: 44%;
+  height: auto;
+}
+
+.verticalSplitLeft2 {
+  float: left;
+  width: 80%;
+  height: auto;
+  margin-right: 1%;
+}
+
+.verticalSplitRight2 {
+  float: left;
+  width: 30%;
+  height: auto;
+}
+
+.Left5 {
+  margin-left: 5%;
+}
+
+.Left15 {
+  margin-left: 15%;
+}
+
+.Top1 {
+  margin-top: 3em;
+}
+
+.width100 {
+  width: 100%;
+  height: auto;
+}
+
+.width90 {
+  width: 90%;
+  height: auto;
+}
+
+.width95 {
+  width: 95%;
+  height: auto;
+}
+
+/*The Prperty tax title*/
+
+#sidenavtext h3 {
+  margin: 0 auto;
+  margin-bottom: 1.17rem;
+  margin-top: 1rem;
+}
+
+#footer {
+  top: 10em;
+}
+
+@media screen and (max-width: 700px) {
+  .paraContainer {
+    flex-direction: column;
+    margin-bottom: 5em;
+  }
+
+  .paraContainer > div {
+    width: 100%;
+  }
+
+  .para {
+    width: 100%;
+  }
+
+  .verticalSplitLeft {
+    width: 100%;
+  }
+
+  .verticalSplitRight {
+    width: 100%;
+  }
+
+  .verticalSplitLeft2 {
+    width: 100%;
+  }
+}
