@@ -59,7 +59,7 @@ body {
   margin-top: 1em;
   position: relative;
   float: left;
-  margin-left: 6%;
+  margin-left: 5%;
   transition: all ease .5s;
 }
 
@@ -91,7 +91,7 @@ body {
   width: 40%;
   font-size: 0.8em;
   /* margin-left: 30%; */
-  margin-right: 3%;
+  margin-right: 5%;
   /* justify-content: center; */
   /* align-self: stretch; */
   transition: all ease .5s;
@@ -308,7 +308,7 @@ a:active, a:hover {
   margin-top: 1.8em;
   position: relative;
   float: left;
-  margin-left: 6%;
+  margin-left: 5%;
   transition: all ease .5s;
 }
 
@@ -443,7 +443,7 @@ input[type=text] {
   }
   .kclogo {
     margin-top: 1em;
-    margin-left: 6%;
+    margin-left: 5%;
     transition: all ease .5s;
   }
   .logoImage {

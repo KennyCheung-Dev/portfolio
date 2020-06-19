@@ -109,6 +109,11 @@ body {
   top: 10em;
 }
 
+.item2 a {
+  border-bottom: 2px solid #A8A79F;
+  padding-bottom: 6px;
+}
+
 @media screen and (max-width: 700px) {
   .paraContainer {
     flex-direction: column;
