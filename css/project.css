@@ -149,240 +149,41 @@ body {
   100% {
     opacity: 1;
   }
-/* }
-
-@-moz-keyframes Fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes Fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes Fade {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes FadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@-moz-keyframes FadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@-o-keyframes FadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes FadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes Expand {
-  0% {
-    width: 32%;
-    height: 17vw;
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-
-  100% {
-    width: 33%;
-    height: 18vw;
-    margin-left: -0.5%;
-    margin-top: -0.5vw;
-  }
-}
-
-@-moz-keyframes Expand {
-  0% {
-    width: 32%;
-    height: 17vw;
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-
-  100% {
-    width: 33%;
-    height: 18vw;
-    margin-left: -0.5%;
-    margin-top: -0.5vw;
-  }
-}
-
-@-o-keyframes Expand {
-  0% {
-    width: 32%;
-    height: 17vw;
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-
-  100% {
-    width: 33%;
-    height: 18vw;
-    margin-left: -0.5%;
-    margin-top: -0.5vw;
-  }
-}
-
-@keyframes Expand {
-  0% {
-    width: 32%;
-    height: 17vw;
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-
-  100% {
-    width: 33%;
-    height: 18vw;
-    margin-left: -0.5%;
-    margin-top: -0.5vw;
-  }
-}
-
-@-webkit-keyframes Shrink {
-  0% {
-    width: 33%;
-    height: 18vw;
-    margin-left: -0.5%;
-    margin-top: -0.5vw;
-  }
-
-  100% {
-    width: 32%;
-    height: 17vw;
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-}
-
-@-moz-keyframes Shrink {
-  0% {
-    width: 33%;
-    height: 18vw;
-    margin-left: -0.5%;
-    margin-top: -0.5vw;
-  }
-
-  100% {
-    width: 32%;
-    height: 17vw;
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-}
-
-@-o-keyframes Shrink {
-  0% {
-    width: 33%;
-    height: 18vw;
-    margin-left: -0.5%;
-    margin-top: -0.5vw;
-  }
-
-  100% {
-    width: 32%;
-    height: 17vw;
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-}
-
-@keyframes Shrink {
-  0% {
-    width: 33%;
-    height: 18vw;
-    margin-left: -0.5%;
-    margin-top: -0.5vw;
-  }
-
-  100% {
-    width: 32%;
-    height: 17vw;
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-} */
 
 .projectImages1 {
-  background-image: url("../img/AOBLogo.gif");
+  background-image: url("../img/AOBLogo_compressed.gif");
 }
 
 .projectImages2 {
-  background-image: url("../img/KAKTUSlogo.gif");
+  background-image: url("../img/KAKTUSlogo_compressed.gif");
 }
 
 .projectImages3 {
-  background-image: url("../img/kaboom/thumpnails1.gif");
+  background-image: url("../img/kaboom/thumpnails1_compressed.gif");
 }
 
 .projectImages4 {
-  background-image: url("../img/VRVRGolf/VRVRGolf.gif");
+  background-image: url("../img/VRVRGolf/VRVRGolf_compressed.gif");
 }
 
 .projectImages5 {
-  background-image: url("../img/ThisIsFine/FineLogo.gif");
+  background-image: url("../img/ThisIsFine/FineLogo_compressed.gif");
 }
 
 .projectImages6 {
-  background-image: url("../img/Raccoon/RaccoonThumbnailEdited.gif");
+  background-image: url("../img/Raccoon/RaccoonThumbnail_compressed.gif");
 }
 
 .side1 {
-  background-image: url("../img/Flight313/Flight313.gif");
+  background-image: url("../img/Flight313/Flight313_compressed.gif");
 }
 
 .side2 {
-  background-image: url("../img/KaijuLab/KaijuLab.gif");
+  background-image: url("../img/KaijuLab/KaijuLab_compressed.gif");
 }
 
 .side3 {
-  background-image: url("../img/GAMESBOND/GamesBond5.gif");
+  background-image: url("../img/GAMESBOND/GamesBond5_compressed.gif");
 }
 
 .side4 {
